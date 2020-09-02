@@ -6,11 +6,14 @@ laser scanner. Next, the robot is prompted to navigate from its initial position
 across the map. The robot successfully executes those missions; building accurate maps and
 navigating using the shortest path.
 
-# For Autonomous Mapping 
+# For Autonomous Mapping; run the following
 Steps:\
 1 - roslaunch husky_autonomous_mapping husky_autonomous_mapping_map1.launch
 
-change [husky_autonomous_mapping_map1.launch] with [xxxxx_mapX] where X = 1,2,3,4,5\
+change [husky_autonomous_mapping_map1.launch] with [xxxxx_mapX] where X = 1,2,3,4,5
 
+#For saving the generated map; run the following
+Steps:\
+1 - rosrun map_server map_saver -f ~/generated_map
 
 
