@@ -21,6 +21,10 @@ Steps:\
 1 - Open "chefbot/chefbot_gazebo/launch/amcl_demo_map1.launch"<br />
 2 - Change the default value of the map file name to the name of the desired map and its path<br />
 3 - Run roslaunch husky_navigating husky_navigating_map1.launch<br />
-change [husky_navigating husky_navigating_map1.launch] with [xxxxx_mapX.launch] where X = 1,2,3,4,5
+change [husky_navigating husky_navigating_map1.launch] with [xxxxx_mapX.launch] where X = 1,2,3,4,5<br />
+
+
+
+Note:<br /> If you saved the provided maps in your home, you can just edit your home section in the path in the files amcl_demo_map1.launch, amcl_demo_map2.launch, amcl_demo_map3.launch, amcl_demo_map4.launch and amcl_demo_map5.launch. You will also need to edit your home section in the path of the map pmg files in each of the maps yaml files.
 
 
