@@ -18,10 +18,9 @@ Steps:\
 
 # For navigating in different worlds; follow the follwing steps
 Steps:\
-1 - Open "chefbot/chefbot_gazebo/launch/amcl_demo_map1.launch"\
-
-2 - Change the default value of the map file name to the name of the desired map and its path\
-3 - Run roslaunch husky_navigating husky_navigating_map1.launch\
+1 - Open "chefbot/chefbot_gazebo/launch/amcl_demo_map1.launch"<br />
+2 - Change the default value of the map file name to the name of the desired map and its path<br />
+3 - Run roslaunch husky_navigating husky_navigating_map1.launch<br />
 change [husky_navigating husky_navigating_map1.launch] with [xxxxx_mapX.launch] where X = 1,2,3,4,5
 
 
