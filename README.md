@@ -7,6 +7,10 @@ across the map. The robot successfully executes those missions; building accurat
 navigating using the shortest path.
 
 # For Autonomous Mapping 
-Steps:\
-1 - roslaunch husky_autonomous_mapping husky_autonomous_mapping_map1.launch \
+Steps:\\
+1 - roslaunch husky_autonomous_mapping husky_autonomous_mapping_map1.launch\
+
+change [husky_autonomous_mapping_map1.launch] with [xxxxx_mapX] where X = 1,2,3,4,5\
+
+
 
