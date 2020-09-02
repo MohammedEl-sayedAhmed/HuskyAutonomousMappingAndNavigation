@@ -12,7 +12,7 @@ Steps:\
 
 change [husky_autonomous_mapping_map1.launch] with [xxxxx_mapX] where X = 1,2,3,4,5
 
-#For saving the generated map; run the following
+# For saving the generated map; run the following
 Steps:\
 1 - rosrun map_server map_saver -f ~/generated_map
 
