@@ -5,3 +5,8 @@ them, the robot uses the gmapping algorithm and autonomously maps the environmen
 laser scanner. Next, the robot is prompted to navigate from its initial position to a final one
 across the map. The robot successfully executes those missions; building accurate maps and
 navigating using the shortest path.
+
+# For Autonomous Mapping 
+Steps:
+1 - roslaunch husky_autonomous_mapping husky_autonomous_mapping_map1.launch \n
+
